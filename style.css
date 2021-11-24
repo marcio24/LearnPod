@@ -245,6 +245,69 @@ main {
     transform: translate(-360px, 40px);
     border-radius: 20px;
 }
+.doiscards{
+    width: 85%;
+    height: 369px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 190px;
+}
+.card1{
+    width: 524px;
+    height: 369px;
+    background-image: url(Imagens/artigo.gif);
+    background-size: 90%;
+    background-position: right;
+    border-radius: 20px;
+    box-shadow: 0 12px 16px -8px rgba(41,42,102,0.11765), 0 8px 8px -4px rgba(41,42,102,0.03922);
+}
+.card2{
+    width: 524px;
+    height: 369px;
+    background-image: url(Imagens/social.gif);
+    background-size: 90%;
+    background-position: right;
+    border-radius: 20px;
+    box-shadow: 0 12px 16px -8px rgba(41,42,102,0.11765), 0 8px 8px -4px rgba(41,42,102,0.03922);
+}
+.entalhes{
+    width: 72%;
+    height: 369px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    transform: translate(-120px, 150px);
+}
+.entalheC1{
+    width: 345px;
+    height: 225px;
+    background-color: #FFB47B;
+    box-shadow: 0 12px 16px -8px rgba(41,42,102,0.11765), 0 8px 8px -4px rgba(41,42,102,0.03922);
+    border-radius: 20px;
+}
+.entalheC2{
+    width: 345px;
+    height: 225px;
+    background-color: #FFB47B;
+    box-shadow: 0 12px 16px -8px rgba(41,42,102,0.11765), 0 8px 8px -4px rgba(41,42,102,0.03922);
+    margin-left: -20px;
+    border-radius: 20px;
+}
+.botao{
+   width: 278px;
+   height: 70px;
+   position: absolute;
+   background-color: #FFB47B;
+   transform: translate(0px, 450px);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: Rancho;
+   font-size: 40px;
+   border-radius: 20px;
+   box-shadow: 0 12px 16px -8px rgba(41,42,102,0.11765), 0 8px 8px -4px rgba(41,42,102,0.03922);
+}
 
 .main3 {
     background: #ad6a21;
