@@ -4,7 +4,10 @@
     box-sizing:border-box;
     font-family:sans-serif;
 }
-
+a {
+    color: #fff;
+    text-decoration:none;
+}
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -29,12 +32,16 @@ header{
     align-items: center;
     background-color: #328dad;
 
+
 }
 .tdheader{
     display:flex;
     justify-content: space-between;
     align-items: center;
     width: 90%;
+    background-color: #328dad;
+    position: fixed;
+    z-index: 5;
 }
 .alinhahed{
     display: flex;
@@ -54,7 +61,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
-    width: 80%;
+    width: 90%;
     height: 50px;
     
 }
@@ -68,10 +75,9 @@ nav{
     position: relative;
     text-decoration: none;
     color: #FFFFFF;
-    font-weight: bold;
     padding: 10px 0px;
-    font-size: 15px;
-    font-family: sans-serif;
+    font-size: 24px;
+    font-family: Rancho;
     letter-spacing: 0.4px;
     margin: 0px 10px;
 }
@@ -111,9 +117,11 @@ nav{
 .logoyt{
     width: 55px;
     height: 48px;
+    margin-right: 10px;
 }
 .miniatura{
     height: 73px;
+    margin-right: 10px;
 }
 .nome{
     color: #FFFFFF;
@@ -135,13 +143,22 @@ main {
     justify-content: space-between;
    
 }
-
+.nuvem{
+    width: 343.31px;
+    height: 185.89px;
+    position: absolute;
+    margin-left: 940px;
+    transform: rotate(18.54deg);
+    margin-top: 70px;
+    z-index: 2;
+}
 .gifv1{
     width: 678px;
     height: 477px;
     position: absolute;
     margin-left: 550px;
     margin-top: 70px;
+    z-index: 1;
 }
 .index-home{
     display: flex;
@@ -216,4 +233,19 @@ main {
     top:50%;
     left: 70%;
     transform:translate(-50%, -50%);
+}
+
+.main4 {
+    height: 40vh;
+    background: #328dad;
+    color: #fff
+}
+
+.lists ul {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
 }
