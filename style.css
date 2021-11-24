@@ -13,6 +13,7 @@
 }
 ::-webkit-scrollbar-thumb {
     background: #7DDCFF;
+    border-radius:10px;
 }
 
 html {
@@ -114,9 +115,64 @@ nav{
 .miniatura{
     height: 73px;
 }
+.nome{
+    color: #FFFFFF;
+    margin-left: 20px;
+    font-size: 50px;
+    font-family: Rancho;
+}
 main { 
-    height:40vh;
+    width: 100%;
+    height: 643.18px;
     background: #fff; 
+}
+.main1{
+    margin-left:30px;
+    width: 550px;
+    height: 643.18px;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    justify-content: space-between;
+   
+}
+
+.gifv1{
+    width: 678px;
+    height: 477px;
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 70px;
+}
+.index-home{
+    display: flex;
+    justify-content: ;
+}
+.RED{
+    color: #ad6a21;
+    font-size: 96px;
+    font-family: Rancho;
+}
+.Midias{
+    color: #ad6a21;
+    font-size: 48px;
+    font-family: Rancho;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.Info{
+    width: 400px;
+    font-size: 28px;
+    font-family: Rancho;
+    color: #ad6a21;
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.centerm1 {
+    width:450px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 50px;
 }
 .center {
     width:700px;
@@ -125,14 +181,39 @@ main {
     display:ms-grid; 
     justify-content: space-around;
 }
-.index-home h1 {
-    margin-top:40px;
-    margin-left:-38px;
+.main3 {
+    background: #ad6a21;
+    width: 100%;
+    height: 300px;
+    position: relative;
 }
-.index-home h2 {
-    margin: 10px 0;
+.nav ul {
+    display:flex;
+    justify-content:center;
+    width: 48%;
+    margin-right:2%;
+    align-items:center;
 }
-.index-sec1 {
-    height:60vh;
-    background: #252525; /* temporario */
+.tLeft {
+    width:370px;
+    position:absolute;
+    top:50%;
+    left: 25%;
+    transform:translate(-50%, -50%);
+    max-width:370px;
+}
+.tLeft p {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 400;
+}
+.tRight p {
+    color: #fff;
+    font-size: 24px;
+}
+.tRight {
+    position:absolute;
+    top:50%;
+    left: 70%;
+    transform:translate(-50%, -50%);
 }
