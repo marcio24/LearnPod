@@ -142,45 +142,39 @@ main {
     display: flex;
     flex-wrap: wrap;
     position: relative;
-
 }
 .main1{
-    margin-left:30px;
-    width: 550px;
+    width: 100%;
     height: 643.18px;
-    background-color: rgb(255, 255, 255);
-    display:flex;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+
 }
-.nuvem{
-    width: 343.31px;
-    height: 185.89px;
-    position: absolute;
-    margin-left: 940px;
-    transform: rotate(18.54deg);
+.centraliza{
+    width: 90%;
+    height:550px;
+    justify-content: center;
     margin-top: 70px;
-    z-index: 2;
+    display: flex;
 }
-.gifv1{
-    width: 678px;
-    height: 477px;
-    position: absolute;
-    margin-left: 550px;
-    margin-top: 70px;
-    z-index: 1;
+.textos{
+    width: 500px;
+    height: 400px;
 }
-.RED{
+.red{
     color: #ad6a21;
     font-size: 96px;
     font-family: Rancho;
 }
-.Midias{
+.subt{
     color: #ad6a21;
     font-size: 48px;
     font-family: Rancho;
     margin-left: 50px;
     margin-top: 10px;
 }
-.Info{
+.texto{
     width: 400px;
     font-size: 28px;
     font-family: Rancho;
@@ -189,19 +183,31 @@ main {
     margin-top: 30px;
     margin-left: 90px;
 }
-.centerm1 {
-    width:450px;
-    height: 300px;
-    margin-top: 100px;
-    margin-left: 50px;  
+.imagens{
+    width: 700px;
+    height:500px;
 }
-
-.center {
-    width:700px;
-    margin:0 auto;
-    max-width: 700px;
-    display:ms-grid; 
-    justify-content: space-around;
+.cloud{
+    width: 343.31px;
+    height: 185.89px;
+    transform: rotate(18.54deg);
+    z-index: 2;
+    background-image: url(Imagens/pngwing.com.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 10px;
+}
+.vid{
+    width: 678px;
+    height: 477px;
+    background-image: url(Imagens/small-actions-big-impact-march.gif);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
 }
 .main2{
     width: 100%;
@@ -253,7 +259,7 @@ main {
     border-radius: 20px;
 }
 .doiscards{
-    width: 85%;
+    width: 1150px;
     height: 369px;
     position: absolute;
     display: flex;
@@ -279,7 +285,7 @@ main {
     box-shadow: 0 12px 16px -8px rgba(41,42,102,0.11765), 0 8px 8px -4px rgba(41,42,102,0.03922);
 }
 .entalhes{
-    width: 72%;
+    width: 980px;
     height: 369px;
     position: absolute;
     display: flex;
@@ -348,7 +354,7 @@ main {
     height: 332px;
     background-color: #FFFFFF;
     margin-top: 100px;
-    margin-left: 280px;
+    margin-left: 45%;
 }
 
 footer {
