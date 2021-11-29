@@ -352,7 +352,7 @@ main {
 }
 
 footer {
-    width: 1366px;
+    width: 100%;
     height: 448px;
     background: #328dad;
     color: #fff;
@@ -361,3 +361,109 @@ footer {
     transform: translatey(1725px);
 
 }
+.desenvolvedores{
+    width: 300px;
+    height: 300px;
+    list-style: none;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.conteudo{
+    width: 300px;
+    height: 300px;
+    list-style: none;
+    margin-top: 100px;
+
+}
+.primeirobloco{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.alinhafoot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.foot1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.title{
+    font-family: Rancho;
+    font-size: 30px;
+}
+.scroll{
+    margin-top: 150px;
+    width: 350px;
+    font-size: 50px;
+    font-family: Rancho;
+}
+
+.foot2{
+    width: 100%;
+    height: 80px;
+    background-color: #7DDCFF;
+    display: flex;
+    justify-content: center;
+}
+.alinhafoot1{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+.logoif{
+    width: 80px;
+    height: 80px;
+    background-image: url(Imagens/0609b1d7-4a7d-41be-bd18-081ecb35eb9e.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.orientadora{
+    width: 250px;
+    height: 30px;
+    font-family: Rancho;
+    font-size: 20px;
+    margin-top: 25px;
+    color: #282323;
+
+}
+.turma{
+    width: 350px;
+    height: 30px;
+    font-family: Rancho;
+    font-size: 20px;
+    margin-top: 25px;
+    color: #282323;
+    margin-left: 70px;
+}
+.nomefoot{
+    position: relative;
+    text-decoration: none;
+    padding: 10px 0px;
+    font-size: 24px;
+    font-family: Rancho;
+    letter-spacing: 0.4px;
+    margin: 0px 10px;
+    width: 150px;
+}
+.nomefoot:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    transform: translate(0px, 38px);
+    background-color: #FFFFFF;
+    visibility: visible;
+    transition: .8s;
+  }
+
+.nomefoot:hover::before{
+    width: 0%;
+    visibility: visible; 
+    transition: width .8s ease-in-out;
+}
+
