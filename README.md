@@ -1,5 +1,5 @@
 # Versão 0.2(Beta)
-# Nesta Versão foi adicionado:
+## Nesta Versão foi adicionado:
 O FavIcon;
 Corrigi as opções disponíveis na NavBar;
 O link para o video no YouTube;
