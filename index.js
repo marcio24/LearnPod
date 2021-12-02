@@ -19,7 +19,6 @@ function fixaTopBar(){
             lastScrollTop = window.pageYOffset
         })
     }
-    console.log(window.pageYOffset)
 }
 window.addEventListener('scroll', function(){
     fixaTopBar()

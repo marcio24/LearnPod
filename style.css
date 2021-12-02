@@ -267,6 +267,61 @@ main {
     border-radius: 20px;
     transition-duration: .8s;
 }
+.cardBanner p{
+    color: #282323;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: Rancho;
+    font-size: 28px;
+    text-align: justify;
+}
+.cardBanner .Efeito-Banner{
+    color: #282323;
+    font-size: 35px;
+    visibility: hidden;
+    transform: translate(-90px, -150px);
+} 
+.cardBanner:hover p{
+    visibility: hidden;
+}
+.cardBanner:hover .Efeito-Banner{
+    visibility: visible;
+    transform: translate(0px, -130px);
+    transition-duration: .8s;
+}
+.tseta{
+    color: #282323;
+    font-family: Rancho;
+    font-size: 22px;
+    text-align: justify;
+    position: absolute;
+    transform: translate(270px, -71px);
+    transition-duration: .5s;
+}
+.seta{
+    width: 25px;
+    height: 25px;
+    background-image: url(Imagens/Seta\ antes.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform: translate(450px, -70px);
+    transition-duration: .5s;
+}.link:hover .seta{
+    width: 30px;
+    height: 30px;
+    background-image: url(Imagens/Seta\ depois.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translate(450px, -71px);
+    transition-duration: .5s;
+}.link:hover .tseta{
+    color: #7DDCFF;
+    transition-duration: .5s;
+}
 .doiscards{
     width: 1150px;
     height: 369px;
@@ -372,7 +427,7 @@ main {
     transform:translate(-50%, -50%);
     max-width:370px;
     color: #fff;
-    font-size: 72px;
+    font-size: 70px;
     font-weight: 400;
     font-family: Rancho;
 }
@@ -382,8 +437,9 @@ main {
     left: 70%;
     transform:translate(-50%, -50%);
     color: #fff;
-    font-size: 36px;
+    font-size: 30px;
     font-family: Rancho;
+    text-align: justify;
 }
 .barrinha{
     width: 4px;
@@ -512,6 +568,6 @@ footer {
     background-color: #328dad;
     position: fixed;
     z-index: 5;
-    transition-duration: .5s;
+    transition-duration: .8s;
     border-radius: 20px;
 }
