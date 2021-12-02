@@ -1,2 +1,9 @@
-# Versão 0.5
-A primeira versão beta-pública do site, nesta versão foram adicionados as animações no escopo do beta-desenvolvedor que estava no ar até hoje.
+# Versão 0.2(Beta)
+# Nesta Versão foi adicionado:
+O FavIcon;
+Corrigi as opções disponíveis na NavBar;
+O link para o video no YouTube;
+O link Para a Página do IFMS-NV
+Foi adicionado parte do conteúdo disponível;
+Um botão no card do banner principal;
+Uma página de desculpas que linkei em todos os botões que ainda não estão com os links prontos.
