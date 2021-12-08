@@ -1,3 +1,3 @@
-# Versão 0.9
+# Versão 0.9.1
 ## Nesta Versão foi adicionado:
-Agora foi concluída a postagem dos conteúdos e corrigido erros estúpidos
+Agora foi adicionado a página de referências
