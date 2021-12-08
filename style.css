@@ -275,20 +275,26 @@ main {
     font-family: Rancho;
     font-size: 28px;
     text-align: justify;
+    position: absolute;
 }
 .cardBanner .Efeito-Banner{
     color: #282323;
     font-size: 35px;
     visibility: hidden;
-    transform: translate(-90px, -150px);
+    transform: translate(60px, -150px);
+    font-size: 15px;
+    
 } 
 .cardBanner:hover p{
     visibility: hidden;
+    transition-duration: .2s;
 }
 .cardBanner:hover .Efeito-Banner{
     visibility: visible;
-    transform: translate(0px, -130px);
+    transform: translate(0px, 30px);
     transition-duration: .8s;
+    font-size: 35px;
+    position: absolute;
 }
 .tseta{
     color: #282323;
@@ -296,7 +302,7 @@ main {
     font-size: 22px;
     text-align: justify;
     position: absolute;
-    transform: translate(270px, -71px);
+    transform: translate(270px, 210px);
     transition-duration: .5s;
 }
 .seta{
@@ -307,16 +313,17 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
-    transform: translate(450px, -70px);
+    transform: translate(230px, 210px);
     transition-duration: .5s;
-}.link:hover .seta{
+}
+.link:hover .seta{
     width: 30px;
     height: 30px;
     background-image: url(Imagens/Seta\ depois.png);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    transform: translate(450px, -71px);
+    transform: translate(450px, 210px);
     transition-duration: .5s;
 }.link:hover .tseta{
     color: #7DDCFF;
@@ -361,7 +368,51 @@ main {
     text-align: justify;
     position: absolute;
 }
+.entalheC1 p{
+    color: #282323;
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Rancho;
+    font-size: 24px;
+    text-align: justify;
+    position: absolute;
+}
 
+.tseta2{
+    color: #282323;
+    font-family: Rancho;
+    font-size: 22px;
+    text-align: justify;
+    position: absolute;
+    transform: translate(100px, 180px);
+    transition-duration: .5s;
+    width: 200px;
+}
+.seta2{
+    width: 25px;
+    height: 25px;
+    background-image: url(Imagens/Seta\ antes.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform: translate(60px, 181px);
+    transition-duration: .5s;
+}.link2:hover .seta2{
+    width: 30px;
+    height: 30px;
+    background-image: url(Imagens/Seta\ depois.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translate(280px, 181px);
+    transition-duration: .5s;
+}.link2:hover .tseta2{
+    color: #7DDCFF;
+    transition-duration: .5s;
+}
 .tseta3{
     color: #282323;
     font-family: Rancho;
